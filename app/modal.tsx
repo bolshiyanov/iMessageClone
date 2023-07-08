@@ -7,7 +7,7 @@ import { Text, View } from '@/components/Themed';
 export default function ModalScreen() {
   return (
     <View style={styles.container}>
-      <Text style={styles.title}>More information about this app may be added here</Text>
+      <Text style={styles.title}>Sign-up</Text>
       <View style={styles.separator} lightColor="#eee" darkColor="rgba(255,255,255,0.1)" />
 
       {/* Use a light status bar on iOS to account for the black space above the modal */}
@@ -24,8 +24,10 @@ const styles = StyleSheet.create({
     padding: 20
   },
   title: {
-    fontSize: 16,
-    textAlign: 'center'
+    fontSize: 20,
+    textAlign: 'center',
+    fontWeight: '700',
+    color: 'blue'
   },
   separator: {
     marginVertical: 30,
