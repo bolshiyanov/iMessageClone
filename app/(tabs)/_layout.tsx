@@ -28,7 +28,7 @@ export default function TabLayout() {
           title: 'Home',
           tabBarIcon: ({ color }) => <TabBarIcon name="home" color={color} />,
           headerRight: () => (
-            <Link href="/Settings"
+            <Link href="/modal"
               asChild>
               <Pressable>
                 {({ pressed }) => (
